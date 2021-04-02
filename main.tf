@@ -1,3 +1,11 @@
+terraform {
+    required_version = ">=0.12"
+    backend s3 {
+        bucket = "daniapp321"
+        key = "daniapp/state.tfstate"
+        region = "us-east-1"
+    }
+}
 provider "aws" {
   region = "us-east-1"
 }
