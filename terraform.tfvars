@@ -1,0 +1,5 @@
+vpc_cidr      = "10.0.0.0/16"
+avail_zone    = "us-east-1a"
+subnet_cidr   = "10.0.20.0/24"
+env_prefix    = "dev2"
+instance_type = "t2.micro"
